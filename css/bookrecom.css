@@ -1,0 +1,183 @@
+
+/*แท็บ*/
+.tabstyle {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5C4A3D !important; /*ปรับข้อความในแท็บเป็นตัวหนา พิมพ์ใหญ่*/
+}
+
+/*พื้นหลังแท็บ*/
+.tab-head {            
+  background-color:#F9F5F2;
+} 
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*เว็บ*/
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #F5EBDD;
+  color: #3E3E3E;
+  line-height: 1.6;
+}
+
+/*กล่องใส่ภาพปกหนังสือ*/
+.feature-box {
+  background-color: #2F3E46;
+  padding: 30px;            /* เพิ่มพื้นที่ภายในกล่อง */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 40px auto;             /* เพิ่มระยะห่างด้านบน/ล่าง และจัดให้อยู่กลางหน้า */
+  max-width: 100%;              /*ความกว้างเต็มจอ*/
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;            /* จัดข้อความให้อยู่กลางกล่อง */
+  color: #F7F4EF;
+}
+
+/*ปกหนังสือ*/
+.book-cover {
+  display: block;
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+  margin: 0 auto 30px auto;
+  border: 4px solid #B89C8B;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+/*ข้อความ ในกล่องปกหนังสือ1*/
+.quote-line1 {
+  font-weight: 600;
+  color: #F7F4EF;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+/*ข้อความ ในกล่องปกหนังสือ2*/
+.quote-line2 {
+  font-weight: 400;
+  color:#F7F4EF;
+}
+
+/*กล่องแนะนำ*/
+ .article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #F7F4EF;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/*หัวข้อ ในกล่องแนะนำ*/
+.article-content h3 {
+  font-size: 26px;              
+  color: #A94442;               
+  margin-bottom: 24px;          /* เพิ่มระยะห่างจากเนื้อหาด้านล่าง */
+  font-weight: 600;             /* เพิ่มน้ำหนักให้หัวข้อดูมั่นคง */
+  letter-spacing: 0.5px;        /* เพิ่มช่องไฟเล็กน้อยให้ดูโปร่ง */
+}
+
+/*เนื้อหา ในกล่องแนะนำ*/
+.article-content p {
+  text-indent: 24px;            /* เยื้องบรรทัดแรกมากขึ้นเล็กน้อย */
+  margin-bottom: 20px;          /* เพิ่มระยะห่างระหว่างย่อหน้า */
+  font-size: 18px;             
+  color: #3E3E3E;               
+  line-height: 1.9; 
+}
+
+/*แท็บเนื้อหาในหนังสือ*/
+.accordion-item {
+  background-color: #B89C8B;      
+  border-left: 6px solid#CBB89D;  /* ขอบ */
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.accordion-button {
+  background-color: #EADAC8;       /* สีหัวข้อ */
+  color: #5C4A3D;                  /* สีฟอนต์ */
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #B89C8B;       /* สีเมื่อเปิด */
+  color: #F7F4EF;
+}
+
+.accordion-body {
+  background-color: #EADAC8;
+  color: #5C4A3D;
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 24px;
+}
+
+.highlight-box {
+  background-color: #EADAC8;       /* สีครีมอบอุ่น */
+  border-left: 6px solid #C94A4A;  /* ขอบสีพีชละมุน */
+  padding: 12px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-size: 24px;
+  font-weight: 500;
+  color: #5C4A3D;                  /* สีฟอนต์ */
+  font-style: italic;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/*กล่องทดลองอ่าน*/
+.btn-outline-secondary {
+  border: 2px solid #D89C8A;
+  color: #5C4A3D;
+  background-color: #F7F4EF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #D89C8A;
+  color: #F7F4EF;
+}
+
+
+/*กล่องท้ายบทความ*/
+.article-summary-box {
+  background-color: #2F3E46;       /* น้ำเงินเข้ม */
+  border-left: 6px solid#D86C5F;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: 40px auto;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #F7F4EF;                  /* ฟอนต์สีครีมอ่อน อ่านง่ายบนพื้นเข้ม */
+}
+
+.summary-line1 {              /*ข้อความ ในกล่องท้ายบทความ1*/
+  font-size: 28px;
+  font-weight: 600; 
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.summary-line2 {              /*ข้อความ ในกล่องท้ายบทความ2*/
+  font-size: 20px;
+  font-weight: 400;
+}
+
